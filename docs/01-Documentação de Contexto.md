@@ -1,46 +1,42 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Sabe-se que manter hábitos saudáveis é benéfico tanto para a saúde física quanto para a saúde mental, além de melhorar a autoestima e amenizar a depressão e a ansiedade, contribuindo no fortalecimento do organismo e reduzindo risco de doenças.  Para a Organização Mundial da Saúde (OMS) saúde é: “O estado de completo bem-estar físico, mental e social e não apenas a ausência de doença.”.
+
+Mas afinal, o que são hábitos saudáveis? Hábitos saudáveis são rotinas que incluem tempo e compromisso com uma tarefa ou estilo de vida benéficos para a saúde.  Uma rotina que prioriza a saúde é essencial para viver bem, não apenas do ponto de vista físico, como também mental, emocional e no campo das relações interpessoais.
+
+Isto quer dizer que, para ser saudável, é necessário se sentir bem por inteiro em relação ao corpo, à mente, incluindo as emoções, às interações e aos laços sociais.  Claro que não é possível se sentir feliz ou entusiasmado a todo tempo, porém, é preciso manter o equilíbrio, conservando estados emocionais positivos na maior parte do dia. Um levantamento realizado pela WW, em parceria com a Kantar, revelou que 65% dos entrevistados manifestarem querer melhorar a saúde física e 40% pretendem perder peso no ano de 2022.
+
+Além do Brasil, a pesquisa da WW e Kantar foi realizada na Austrália, Bélgica, Holanda, Estados Unidos, Nova Zelândia, Canadá, Suécia, França, Suíça, Alemanha, Reino Unido, China, África do Sul e Índia. O Brasil lidera o ranking de países onde a população ganhou peso no último ano, com 45% das respostas, seguido da África do Sul (41%), além de Estados Unidos e Nova Zelândia, que empataram a indicação de 39% dos respondentes
+
+Pensando neste cenário, surgiu a ideia do desenvolvimento de um aplicativo mobile para ajudar o brasileiro no melhor controle do seu tempo e consequentemente no desenvolvimento de hábitos saudáveis.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+A escolha da aplicação foi elaborada pensando em indivíduos que se dedicam às atividades do dia a dia e precisam balancear tarefas, trabalhos e estudos, sejam eles jovens ou adultos; A aplicação é para toda e qualquer pessoa que busca otimizar o tempo de seus afazeres com auxílio da tecnologia e sem nenhuma dificuldade. 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+## Objetivo geral
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A aplicação visa a melhorar a produtividade das atividades a serem realizadas, bem como garantir o equilíbrio e qualidade de vida no cotidiano.
 
-## Objetivos
+### Objetivos específicos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+•Fornecer tecnologia que propicie a organização de conteúdo, tarefas e metas diárias, otimizando a organização individual.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+•Estabelecer critérios de tempo para execução das tarefas propostas de acordo com os horários estabelecidos pelo usuário conforme demanda, permitindo sua personalização.
+
+• Verificar os avanços/consolidação de hábitos ou regularidade da rotina proposta
+
+
+
+## Proposta de solução
+
+Nossa proposta é a criação de uma aplicação mobile para controle de tarefas diárias visando a otimização do tempo do usuário. A aplicação por sua vez irá possuir uma ampla possibilidade de uso devido suas funcionalidades, o que facilitará ao usuário o acesso rápido e remoto a uma ferramenta de controle e gestão de tempo e tarefas. Isto significa que todos poderão se beneficiar da aplicação. O seu uso é universal.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O grupo escolheu abordar este problema por enxergar uma oportunidade real de fornecer uma contribuição de fato significativa para resolução do mesmo, levando em consideração as necessidades do público alvo e a possibilidade de desenvolvimento de uma ferramenta viável , útil e com potencial de aplicação em diversos cenários que considerem a melhor gestão de tempo e estabelecimento de rotina além do cultivo de bons hábitos.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo desta aplicação é toda e qualquer pessoa que tenha o anseio de melhor organizar o seu dia a dia e queira utilizar uma ferramenta tecnológica como auxílio a fim de cultivar melhores hábitos e gerir de forma eficaz o seu ativo mais precioso, o tempo. Não há restrições de público para os possíveis usuários da aplicação, o seu uso é universal.
