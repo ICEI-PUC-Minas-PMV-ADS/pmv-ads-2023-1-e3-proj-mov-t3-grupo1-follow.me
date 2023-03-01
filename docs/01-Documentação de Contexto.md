@@ -30,7 +30,7 @@ A aplicação visa a melhorar a produtividade das atividades a serem realizadas,
 
 ## Proposta de solução
 
-Nossa proposta é a criação de uma aplicação mobile para controle de tarefas diárias visando a otimização do tempo do usuário. A aplicação por sua vez irá possuir uma ampla possibilidade de uso devido suas funcionalidades, o que facilitará ao usuário o acesso rápido e remoto a uma ferramenta de controle e gestão de tempo e tarefas. Isto significa que todos poderão se beneficiar da aplicação. O seu uso é universal.
+Nossa proposta é a criação de uma aplicação mobile para controle de tarefas diárias visando a otimização do tempo do usuário. A aplicação por sua vez irá possuir uma ampla possibilidade de uso devido suas funcionalidades, o que facilitará ao usuário o acesso rápido e remoto a uma ferramenta de controle, gestão de tempo e tarefas. Isto significa que todos poderão se beneficiar da aplicação. O seu uso é universal.
 
 ## Justificativa
 
