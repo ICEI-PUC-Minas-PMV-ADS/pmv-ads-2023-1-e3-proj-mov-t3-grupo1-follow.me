@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# APLICAÇÃO PARA CONTROLE DE HÁBITOS 
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
@@ -6,7 +6,7 @@
 
 `Turma 03 - 2023/1 - Grupo 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nossa proposta é a criação de uma aplicação mobile para controle de tarefas diárias visando a otimização do tempo do usuário. A aplicação por sua vez irá possuir uma ampla possibilidade de uso devido suas funcionalidades, o que facilitará ao usuário o acesso rápido e remoto a uma ferramenta de controle, gestão de tempo e tarefas. Isto significa que todos poderão se beneficiar da aplicação. O seu uso é universal.
 
 ## Integrantes
 
