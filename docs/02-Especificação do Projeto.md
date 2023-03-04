@@ -78,7 +78,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Na linguagem de modelagem unificada (UML), o objetivo do diagrama de caso de uso é demonstrar as diferentes maneiras que o usuário pode interagir com um sistema. O caso de uso abaixo apresenta as possibilidades de interação do usuário com o aplicativo Hábitos.
 
-![DIAGRAMA CASO DE USO](https://user-images.githubusercontent.com/103156976/222037270-440659c7-ad70-47d3-8a57-a552f2b33ff1.jpg)
+![DIAGRAMA CASO DE USO](https://user-images.githubusercontent.com/103230282/222922386-a1ec9e4f-b53b-42f4-8a46-36c0dc65d846.png)
 
 # Matriz de Rastreabilidade
 
