@@ -39,15 +39,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| A tela inicial deve exibir um botão para acessar o login.  | ALTA |
-|RF-02| O software deve permitir cadastrar (criar) novos hábitos.    | ALTA |
-|RF-03| O software deve mostrar de forma intuitiva a visão geral da semana do usuário.   | MÉDIA |
-|RF-04|O software deve permitir ao usuário gerar um relatório sobre suas atividades ao fim de cada ciclo (mês)   | BAIXA |
-|RF-05| Cadastro de tarefas/hábitos: o usuário poderá cadastrar uma lista de tarefas ou hábitos que deseja realizar diariamente.  | MÉDIA |
-|RF-06| Marcar tarefas cumpridas ou não cumpridas: o usuário poderá marcar diariamente se realizou ou não cada uma das tarefas cadastradas.   | ALTA |
-|RF-07| Notificações: o usuário poderá receber notificações diárias para lembrá-lo de realizar as tarefas cadastradas.  | MÉDIA |
+|RF-01| A aplicação deve permitir ao usuário criar um cadastro  | ALTA |
+|RF-02| A tela inicial deve exibir um botão para acessar o login.  | ALTA |
+|RF-03| O software deve permitir cadastrar (criar) novos hábitos.    | ALTA |
+|RF-04| O software deve mostrar de forma intuitiva a visão geral da semana do usuário.   | MÉDIA |
+|RF-05|O software deve permitir ao usuário gerar um relatório sobre suas atividades ao fim de cada ciclo (mês)   | BAIXA |
+|RF-06| Cadastro de tarefas/hábitos: o usuário poderá cadastrar uma lista de tarefas ou hábitos que deseja realizar diariamente.  | MÉDIA |
+|RF-07| Marcar tarefas cumpridas ou não cumpridas: o usuário poderá marcar diariamente se realizou ou não cada uma das tarefas cadastradas.   | ALTA |
+|RF-08| Notificações: o usuário poderá receber notificações diárias para lembrá-lo de realizar as tarefas cadastradas.  | MÉDIA |
 
-### Requisitos não Funcionais
+### Requisito não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
