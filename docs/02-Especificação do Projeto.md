@@ -52,12 +52,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| A aplicação deve ser publicada em repositório público acessível na internet. l | ALTA |
+|RNF-01| A aplicação deve ser publicada em repositório público acessível na internet.  | ALTA |
 |RNF-02| Uso de design responsivo nas interfaces gráficas.  |  ALTA |
 |RNF-03| O software deverá armazenar as informações descritas ou selecionadas pelo usuário. | MÉDIA |
 |RNF-04| Os dados do usuário devem ser armazenados de forma segura e protegidos contra possíveis invasões ou vazamentos de informações. |  ALTA |
 |RNF-05| O aplicativo deve funcionar em diferentes plataformas (iOS e Android) e em diferentes dispositivos, como tablets e smartphones.  | MÉDIA |
-
 
 
 ## Restrições
@@ -80,7 +79,10 @@ Na linguagem de modelagem unificada (UML), o objetivo do diagrama de caso de uso
 
 Uma matriz de rastreabilidade de software é uma ferramenta usada no gerenciamento de projetos de software para rastrear e documentar as relações entre os requisitos do sistema, as funcionalidades do software e os testes realizados durante o processo de desenvolvimento. Essa matriz permite que os desenvolvedores e gerentes de projeto rastreiem a origem e o destino de cada requisito, bem como os testes e validações associados a cada um deles. Isso ajuda a garantir que todos os requisitos do sistema estejam implementados e testados corretamente, o que ajuda a garantir a qualidade e a efetividade do software.
 
-![matriz de rastreabilidade](https://user-images.githubusercontent.com/103156976/222037537-8dd89880-c784-4446-b341-f27a4a0359b5.jpg)
+- Em "X" estão os requisitos funcionais que se adequam as queixas que os usuarios aprensentam.
+- O colorido mostra as relações entre os requisitos e dependencia entre eles.
+
+![MATRIZ RASTREABILIDADE](https://user-images.githubusercontent.com/103156976/222991968-fab456e3-cede-4501-a1b0-13945ac6a727.jpg)
 
 # Gerenciamento de Projeto
 
