@@ -43,14 +43,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-02| O software deve permitir cadastrar (criar) novos hábitos.    | ALTA |
 |RF-03| O software deve mostrar de forma intuitiva a visão geral da semana do usuário.   | MÉDIA |
 |RF-04|O software deve permitir ao usuário gerar um relatório sobre suas atividades ao fim de cada ciclo (mês)   | BAIXA |
-|RF-05| O software deve permitir o compartilhamento de conclusão de uma atividade nas mídias sociais. s | BAIXA |
-|RF-06| O software deve permitir ao usuário selecionar o modo (claro) ou (escuro)  | BAIXA |
 |RF-07| Cadastro de tarefas/hábitos: o usuário poderá cadastrar uma lista de tarefas ou hábitos que deseja realizar diariamente.  | MÉDIA |
 |RF-08| Marcar tarefas cumpridas ou não cumpridas: o usuário poderá marcar diariamente se realizou ou não cada uma das tarefas cadastradas.   | ALTA |
 |RF-09| Notificações: o usuário poderá receber notificações diárias para lembrá-lo de realizar as tarefas cadastradas.  | MÉDIA |
-|RF-10| Personalização: o usuário poderá personalizar o aplicativo, escolhendo cores e fontes de sua preferência.    | BAIXA |
-
-
 
 ### Requisitos não Funcionais
 
