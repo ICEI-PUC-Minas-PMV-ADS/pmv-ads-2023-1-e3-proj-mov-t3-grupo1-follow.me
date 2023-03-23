@@ -1,5 +1,10 @@
 import Fastify from 'fastify';
 const app = Fastify();
+import cors from '@fastify/cors'
+
+
+app.register(cors)
+
 
 // -- rotas
 app.get('/', () =>{
@@ -12,3 +17,5 @@ app.listen({
 }).then(() => {
     console.log("HTTP Server rodando!")
 })
+
+
