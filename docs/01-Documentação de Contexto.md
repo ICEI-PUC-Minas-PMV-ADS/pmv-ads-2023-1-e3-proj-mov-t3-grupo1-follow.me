@@ -8,7 +8,9 @@ Isto quer dizer que, para ser saudável, é necessário se sentir bem por inteir
 
 Além do Brasil, a pesquisa da WW e Kantar foi realizada na Austrália, Bélgica, Holanda, Estados Unidos, Nova Zelândia, Canadá, Suécia, França, Suíça, Alemanha, Reino Unido, China, África do Sul e Índia. O Brasil lidera o ranking de países onde a população ganhou peso no último ano, com 45% das respostas, seguido da África do Sul (41%), além de Estados Unidos e Nova Zelândia, que empataram a indicação de 39% dos respondentes
 
-Pensando neste cenário, surgiu a ideia do desenvolvimento de um aplicativo mobile para ajudar o brasileiro no melhor controle do seu tempo e consequentemente no desenvolvimento de hábitos saudáveis.
+A construção de uma rotina contribui no aumento da produtividade. O nosso cérebro adora rotinas, pois lida muito bem com previsibilidade, já que, assim, gastará menos energia tentando adivinhar o que acontecerá no próximo momento. Como mesmo as atividades rotineiras já são surpreendentes por si só, tentar manter o máximo de rotina possível é ótimo para a nossa saúde mental. 
+
+Pensando neste cenário, surgiu a ideia do desenvolvimento de um aplicativo mobile para ajudar o brasileiro no melhor controle do seu tempo e de suas atividades e consequentemente no desenvolvimento de hábitos saudáveis e melhor qualidade de vida. 
 
 ## Problema
 
