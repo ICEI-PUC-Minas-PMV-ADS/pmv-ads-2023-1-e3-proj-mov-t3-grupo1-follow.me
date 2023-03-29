@@ -1,20 +1,26 @@
 {
-  "name": "my-prisma-project",
+  "name": "pmv-ads-2023-1-e3-proj-mov-t3-grupo1-follow.me",
   "version": "1.0.0",
-  "description": "",
+  "description": "`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "prisma": "^4.12.0"
-  },
   "dependencies": {
     "@fastify/cors": "^8.2.1",
     "@prisma/client": "^4.12.0",
-    "fastify": "^4.15.0"
+    "fastify": "^4.15.0",
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "prisma": "^4.12.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.2"
   }
 }

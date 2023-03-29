@@ -1,28 +1,26 @@
-import Fastify from 'fastify'; 
-const app = Fastify();
-
-import { PrismaClient } from '@prisma/client'
-const prisma = new PrismaClient()
-// use `prisma` in your application to read and write data in your DB
-
+import Fastify from 'fastify'
 import cors from '@fastify/cors'
+import { Prisma, PrismaClient } from '@prisma/client'
 
+const app = Fastify()
+const prisma = new PrismaClient()
 
 app.register(cors)
 
-
-// -- rotas
-app.get('/hello', async () =>{
-    const habits = await prisma.habit.findMany()
+app.get('/hello', async () => {
+    const habits = await prisma.habit.findMany({
+        where: {
+            title: {
+                startsWith: 'Beber'
+        }
+    }
+ })
 
     return habits
 })
 
-// -- configurando porta
 app.listen({
     port: 3333,
 }).then(() => {
-    console.log("HTTP Server rodando!")
+    console.log('HTTP Server running!')
 })
-
-
