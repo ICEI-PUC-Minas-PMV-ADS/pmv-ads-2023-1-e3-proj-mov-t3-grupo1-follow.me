@@ -35,9 +35,10 @@ Todos esses relacionamentos são definidos por meio de chaves estrangeiras, que 
 
 ![Arquitetura da Solução](img/ERD.svg)
 
+
 ## Modelo Físico
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+A seguir apresenta-se um link para o arquivo banco.sql, contendo os scripts de criação das tabelas do banco de dados. Este arquivo está localizado na pasta src\bd e pode ser usado para criar a estrutura inicial do banco de dados. 
 
 ## Tecnologias Utilizadas
 
