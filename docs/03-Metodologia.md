@@ -8,7 +8,13 @@ A metodologia contempla as definições de ferramentas utilizadas pela equipe ta
 ## Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+
+| Ambiente | Plataforma | 
+--------- | ---------- |  
+| Repositório de código fonte | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t4-farmafast) |
+| Documentos do projeto | [Figma](https://www.figma.com/file/rVLXxMyInok3LcmbIebwC2/Untitled?node-id=0%3A1) |
+| Gerenciamento de Projeto | [Trello](https://trello.com/b/XMfxlqCf/quadro-kanban), [Gantt](https://sgapucminasbr-my.sharepoint.com/:x:/g/personal/1349321_sga_pucminas_br/EbLW4-6kP0hDuhLmzo9n_2UBkS2UfUH7uqSUSkS3VEvM9Q?e=emiwkW)  |
+| Comunicação e Reuniões | [Teams](https://teams.microsoft.com/_), [Discord](https://discord.com/), [WhatsApp](https://web.whatsapp.com/) |
 
 ## Controle de Versão
 
