@@ -25,11 +25,15 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+O esquema Entidade-Relacionamento (ER) é uma representação gráfica que descreve a estrutura de um banco de dados e seus relacionamentos, sendo utilizado para ilustrar a forma como as entidades (como tabelas) se relacionam entre si, incluindo os atributos e chaves primárias de cada entidade. 
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+O esquema apresentado possui quatro tabelas, sendo que três delas (Atividade, Dia e DiaAtividade) estão relacionadas entre si. A tabela Atividade armazena informações sobre atividades, como o título e a data de criação. A tabela Dia é usada para representar dias específicos, contendo a data e uma lista de DiaAtividades relacionadas a esse dia. Já a tabela DiaAtividade é usada para relacionar atividades específicas com dias específicos, ou seja, ela é responsável por armazenar as informações sobre em quais dias específicos da semana aquela atividade deve ser rastreada.
+
+Além disso, há a tabela DiaSemanaAtividade, que armazena informações sobre atividades que ocorrem em dias da semana específicos. Essa tabela tem um relacionamento com a tabela Atividade, indicando a atividade que ocorre em um determinado dia da semana.
+
+Todos esses relacionamentos são definidos por meio de chaves estrangeiras, que são usadas para conectar as tabelas. No geral, o esquema ER apresenta uma estrutura bem definida, permitindo que sejam facilmente identificadas as relações entre as diferentes tabelas e como os dados estão organizados no banco de dados.
+
+![Arquitetura da Solução](img/ERD.svg)
 
 ## Modelo Físico
 

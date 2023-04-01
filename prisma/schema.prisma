@@ -12,8 +12,8 @@ datasource db {
 
 model Atividade {
   id                 String               @id @default(uuid())
-  title              String
-  created_at         DateTime
+  nome               String
+  data_criacao       DateTime
   DiaAtividade       DiaAtividade[]
   DiaSemanaAtividade DiaSemanaAtividade[]
 
