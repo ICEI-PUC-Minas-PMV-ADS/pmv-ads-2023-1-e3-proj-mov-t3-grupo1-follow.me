@@ -5,6 +5,16 @@
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+
+| CENÁRIO  | CASO DE TESTE  | BDD  |
+| ------------ | ------------ | ------------ |
+| 001 - LOGIN  |  CT01 - Login com e-mail inválido  |    Dado que eu esteja na tela de login; Quando preencher usuário com e-mail sem @;  Então o sistema deve exibir mensagem de erro “Login ou senha incorretos”  |
+| 001 - LOGIN  | CT02 - Login válido com email e senha  |  Dado que eu esteja na tela de login; Quando o usuário preecnher corretamente os seus dados de email e senha; Então o sistema o direcionará para a tela principal (Tabela das atividades mensais);  |
+|  002 - Atividades | CT03 - Criar novas atividades    |  Dado que eu esteja na tela principal (Tabela das atividades mensais); Quando o usuário clicar no símbolo de '☰' no canto superior direito da tela, o sistema irá direcioná-lo pra tela de menu; O usuário irá escolher a opção 'Criar novo hábito';  Ele preencherá os dados da sua nova atividade e clicará em 'concluir'; Então o sistema o direcionará para a tela principal (Tabela das atividades mensais); | 
+| 002 - Atividades  | CT04 - Gerar relatório das atividades mensais   | Dado que eu esteja na tela principal (Tabela das atividades mensais); Quando o usuário clicar no símbolo de '☰' no canto superior direito da tela, o sistema irá direcioná-lo pra tela de menu; O usuário irá escolher a opção 'Gerar relatório'; Então o sistema o direcionará para uma tela personalizada, compilando as suas atividades mensais;  |
+|  002 - Atividades | CT05 - Programar uma lista diária de atividades  | Dado que eu esteja na tela principal (Tabela das atividades mensais);  Quando o usuário clicar no símbolo de '☰' no canto superior direito da tela, o sistema irá direcioná-lo pra tela de menu; O usuário irá escolher a opção 'Criar novo hábito'; Ele preencherá os dados da sua nova atividade, marcar a opção 'recorrente'; O usuário indicará a data de termino dessa atividade e clicará em 'concluir'; |
+| 002 - Atividades  | CT06 - Marcar tarefas cumpridas e não cumpridas   | Dado que eu esteja na tela principal (Tabela das atividades mensais); O usuário irá clicar atividade concluida da tabela; Essa quadrado que representa a atividade irá trocar de cor, exibindo um quadrado verde indicando que foi realizada.   |
+| 003 - Notificação  | CT07 - Notificações diárias das atividades   |  Em um horário específico, o aplicativo irá disparar uma notificação da suas atividades diárias programadas  |
  
 ## Ferramentas de Testes (Opcional)
 
