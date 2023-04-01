@@ -30,6 +30,50 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Estudante  | Conseguir realizar os afazeres dentro do prazo determinado.          |Cumprir objetivos e obter qualidade de vida.              |
 |Profissional     | Organizar a rotina.               | Conciliar as responsabilidades da vida pessoal e profissional. |
 
+## Modelagem do Processo de Negócio  
+
+### Análise da Situação Atual 
+
+Proposta de aplicativo mobile para controle de tarefas diárias visando a otimização do tempo do usuário e controle de produtividade, o usuário terá o acesso rápido e remoto de uma ferramenta de gestão de tempo e tarefas.  
+
+
+### Descrição Geral da Proposta 
+
+O aplicativo tem como fundamento norteador a otimização de tempo para o usuário, desta forma optou-se por uma interface simples e intuitiva, que propicie ao usuário um acesso rápido sem exigir uma demanda alta de tempo para usufruir da aplicação.  
+
+Como mecanismo de escolha, a aplicação irá apresentar listas para o usuário; Listas estas que podem ser personalizadas conforme a rotina do mesmo ou utilizada de forma padrão. A ideia de trabalhar com listas vai mais uma vez de encontro com a otimização do tempo, acreditamos que trabalhar com listas vai propiciar ao usuário um check list rápido e dinâmico do seu dia.  
+
+### Processo 1 – LOGIN 
+
+O processo 1 abrange o login.  abaixo segue o modelo descrito no padrão BPMN. 
+
+![processo login follow me](https://user-images.githubusercontent.com/103156976/229315518-c1d98bc0-8f15-425b-99ae-18a8578c286c.jpeg)
+
+### Processo 2 – Controle de atividades 
+
+O processo 2 abrange o controle das atividades abaixo segue o modelo descrito no padrão BPMN. 
+
+![processo controle de atividades follow me](https://user-images.githubusercontent.com/103156976/229315531-f69adb55-5265-43ea-bbe9-f32d43aa2d1a.jpeg)
+
+### Processo 3 – Relatório 
+
+O processo 3 abrangem os relatórios da aplicação.  abaixo segue o modelo descrito no padrão BPMN. 
+
+![processo relatorio follow me](https://user-images.githubusercontent.com/103156976/229315547-6bb7a7e5-e2db-4141-9094-f23bcd8683e9.jpeg)
+
+## Indicadores de Desempenho 
+
+Com os indicadores de desempenho constituímos o conjunto de indicadores da empresa, onde avaliamos a performance ao longo do tempo e qualidade do softaware.
+
+| Indicador  | Objetivos   |  Descrição   | Cálculo  | Fonte da dados  | Perspectiva  |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Total de cadastros realizados    |  Quantificar os usuários da aplicação  |  Total de cadastros em relação a aplicação  |  Cadastros mensais  |  Contador na aplicação  | Evolução e análise de público-alvo   |
+| Total de acesso a plataforma   |  Mensurar o acesso do usuário a plataforma  | Verificar a média do acesso do usuário, definir padrões de uso   |  Calcular média de acessos diários  | Contador na aplicação    |  Avaliar a eficácia da aplicação   |
+|  Total de relatórios gerados  | Avaliar o consumo efetivo da aplicação por meio do usuário     |  Verificar o perfil dos relatórios gerados pelo usuário (período, listas)  | Quantificar e qualificar os relatórios gerados   |  Contador na aplicação e análise qualitativa  | Analisar o engajamento e uso efetivo da aplicação dada sua finalidade   |
+|  Total de reclamações reportadas  | Avaliar a quantidade de reclamações do usuário   | Total de reclamações em relação a quantidade de cadastros mensais   | Cadastros x reclamações  | Planilha para registro de reclamações   | Melhorar a performance da aplicação   |
+|  Total de requisições abertas  | Melhorar a entrega da aplicação avaliando a porcentagem de requisições    | Mensurar o total de requisições abertas, atendidas, solucionadas e pendentes   |  Analisar base de requisições   | Planilha para controle de requisições   |  Melhoria de processos internos e performance da aplicação  |
+
+
 
 ## Requisitos
 
