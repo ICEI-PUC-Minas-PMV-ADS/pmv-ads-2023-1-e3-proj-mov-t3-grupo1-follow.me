@@ -26,6 +26,8 @@ A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
 
+![fluxo versionamento](https://user-images.githubusercontent.com/103156976/229322255-9a34b4e0-d007-4747-8131-a0a308173fb2.jpg)
+
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
