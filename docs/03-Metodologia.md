@@ -11,7 +11,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | Ambiente | Plataforma | 
 --------- | ---------- |  
-| Repositório de código fonte| GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo1-follow.me |  
+| Repositório de código fonte| GitHub | (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo1-follow.me) |  
 |Ferramenta para controle de versão| Git | https://git-scm.com/ |  
 | Documentos do projeto | [Figma](https://www.figma.com/file/rVLXxMyInok3LcmbIebwC2/Untitled?node-id=0%3A1) |
 | Gerenciamento de Projeto | [Trello](https://trello.com/b/XMfxlqCf/quadro-kanban), [Gantt](https://sgapucminasbr-my.sharepoint.com/:x:/g/personal/1349321_sga_pucminas_br/EbLW4-6kP0hDuhLmzo9n_2UBkS2UfUH7uqSUSkS3VEvM9Q?e=emiwkW)  |
