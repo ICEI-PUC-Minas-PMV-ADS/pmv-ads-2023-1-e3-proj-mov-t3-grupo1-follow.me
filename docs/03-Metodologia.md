@@ -3,12 +3,22 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
 ## Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+
+| Ambiente | Plataforma | 
+--------- | ---------- |  
+| Repositório de código fonte| [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo1-follow.me) |  
+| Ferramenta para controle de versão| [Git](https://git-scm.com/) |  
+| Documentos do projeto | [GitHub]( https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo1-follow.me/tree/main/docs) |
+| Gerenciamento de Projeto | [Microsoft Planner](https://tasks.office.com/sgapucminasbr.onmicrosoft.com/pt-BR/Home/Planner/#/plantaskboard?groupId=27357971-1be1-4c0c-b925-2e9a75185e81&planId=twPnm3cm106sNXkNk68ouWQAHg-Y)  |
+| Projeto de interface e wireframes | [Figma](https://www.figma.com/file/Jk2GMzCgewSmypMwiepG2i/Follow-me---APP-mobile?node-id=512%3A538&t=bIUY8h5HaM7IgIE1-1) |
+| Editor de código | [Visual Studio Code](https://portal.azure.com/?Microsoft_Azure_Education_correlationId=482c7b3fd428421ebc975fb5a28dcb48#view/Microsoft_Azure_Education/EducationMenuBlade/~/software) |
+| Banco de Dados | [SQLite](https://www.sqlite.org/download.html) |
+| Ferramenta para simulação mobile | [ExpoGo]([https://teams.microsoft.com/_](https://expo.dev/client) |
 
 ## Controle de Versão
 
