@@ -51,3 +51,7 @@ model DiaSemanaAtividade {
   @@unique([id_atividade, dia_semana])
   @@map("dia_semana_atividade")
 }
+
+generator erd {
+  provider = "prisma-erd-generator"
+}
