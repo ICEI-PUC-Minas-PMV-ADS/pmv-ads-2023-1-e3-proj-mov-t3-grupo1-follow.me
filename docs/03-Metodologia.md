@@ -18,7 +18,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Projeto de interface e wireframes | [Figma](https://www.figma.com/file/Jk2GMzCgewSmypMwiepG2i/Follow-me---APP-mobile?node-id=512%3A538&t=bIUY8h5HaM7IgIE1-1) |
 | Editor de código | [Visual Studio Code](https://portal.azure.com/?Microsoft_Azure_Education_correlationId=482c7b3fd428421ebc975fb5a28dcb48#view/Microsoft_Azure_Education/EducationMenuBlade/~/software) |
 | Banco de Dados | [SQLite](https://www.sqlite.org/download.html) |
-| Ferramenta para simulação mobile | [Expo Go]([https://teams.microsoft.com/_](https://expo.dev/client) |
+| Ferramenta para simulação mobile | [Expo Go](https://expo.dev/client) |
 
 ## Controle de Versão
 
