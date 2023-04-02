@@ -66,22 +66,29 @@ foi utilizado para hospedagem do repositório.
 A equipe fará uso da metodologia ágil Scrum como base para definição de todo o processo de desenvolvimento. 
 
 Portanto, a equipe está organizada da seguinte maneira: 
-- Scrum Master: Paola Marsura Verreschi De Oliveira
-- Product Owner: Katryn Ribeiro De Jesus Oliveira
-- Equipe de Desenvolvimento: Gabriela França Alves Miranda e Fred Vasquez Pinheiro Gomes
-- Equipe de Design: Barbara Benedetti Cavalcante
+- `Scrum Master:` Paola Marsura Verreschi De Oliveira
+- `Product Owner:` Katryn Ribeiro De Jesus Oliveira
+- `Equipe de Desenvolvimento:` Gabriela França Alves Miranda e Fred Vasquez Pinheiro Gomes
+- `Equipe de Design:` Barbara Benedetti Cavalcante
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Planner disponibilizado pela Microsoft estruturado com as seguintes listas: 
+
+
+- `Tarefas pendentes:` esta lista contém as tarefas de todas as etapas do nosso projeto que ainda não estão em andamento. Em cada uma das tarefas é possível colocar anexos, anotações, nível de prioridade, data de início e fim, entre outras ferramentas disponibilizadas; 
+
+- `Em andamento:` esta lista contém as tarefas que devem ser concluídas no momento atual. Utilizamos dos cards para fazer a divisão entre o grupo, atribuindo cada tarefa a um membro. No card colocamos os detalhes das tarefas, prazo final e etiquetamos de acordo com a etapa (1, 2, 3, 4 ou 5); 
+
+- `Concluída:` Conclusão: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontas para serem entregues ao usuário. Não há mais edições ou revisões necessárias, elas estão agendadas e prontas para a ação. 
+
+  
+
+O quadro kanban do grupo no Planner está disponível através do link (https://tasks.office.com/sgapucminasbr.onmicrosoft.com/pt-BR/Home/Planner/#/plantaskboard?groupId=27357971-1be1-4c0c-b925-2e9a75185e81&planId=twPnm3cm106sNXkNk68ouWQAHg-Y) e é apresentado, no estado atual, na figura abaixo.  
+
+  
+
+![image](blob:https://web.whatsapp.com/3f11d8c4-836d-4826-bb5d-3eb19eeb9e38) 
 
 ### Ferramentas
 
