@@ -6,6 +6,8 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
+Descrição dos cenários de testes, relacionados aos requisitos propostos pelo grupo: 
+
 | CENÁRIO  | CASO DE TESTE  | BDD  | RESULTADO ESPERADO | 
 | ------------ | ------------ | ------------ | -------- |
 | 001 - LOGIN  |  CT01 - Login com e-mail inválido  |    Dado que eu esteja na tela de login; Quando preencher usuário com e-mail sem @;  Então o sistema deve exibir mensagem de erro “Login ou senha incorretos”  | Acesso não autorizado |
