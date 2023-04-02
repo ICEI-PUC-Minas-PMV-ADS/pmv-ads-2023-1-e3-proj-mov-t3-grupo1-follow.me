@@ -38,17 +38,17 @@ Para este versionamento e controle de código fonte, estabelecemos o seguinte fl
 
   
 
-1. 	Clone do projeto (cada membro do grupo criou o clone do projeto em sua máquina).  
+- `Clone do projeto` (cada membro do grupo criou o clone do projeto em sua máquina).  
 
-2.	Criação da Branch (ramificação independente que permite alterar os arquivos sem interferir no original). 
+-	`Criação da Branch` (ramificação independente que permite alterar os arquivos sem interferir no original). 
 
-3.	Commits (descrição objetiva de cada commit conforme funcionalidade) 
+- `Commits` (descrição objetiva de cada commit conforme funcionalidade) 
 
-4.	Pull (Utilizado para buscar e trazer mudanças do repositório remoto para o repositório local, ou seja, unir os conteúdos dos arquivos alterados. Em alguns casos, pode ser necessária uma intervenção humana para realizar essa) 
+-	`Pull` (Utilizado para buscar e trazer mudanças do repositório remoto para o repositório local, ou seja, unir os conteúdos dos arquivos alterados. Em alguns casos, pode ser necessária uma intervenção humana para realizar essa) 
 
-5.	Push (Após finalizada a funcionalidade enviamos a nossa branch com as alterações para o repositório remoto, permitindo que os membros do grupo possam ver e alterar se necessário). 
+-	`Push` (Após finalizada a funcionalidade enviamos a nossa branch com as alterações para o repositório remoto, permitindo que os membros do grupo possam ver e alterar se necessário). 
 
-6.	Merge (Ato de mesclar as modificações das branches com os arquivos originais do projeto da Branch principal, deixando disponível para os demais contribuidores). 
+-	`Merge` (Ato de mesclar as modificações das branches com os arquivos originais do projeto da Branch principal, deixando disponível para os demais contribuidores). 
 
   
 
@@ -58,30 +58,6 @@ foi utilizado para hospedagem do repositório.
 
 ![fluxo versionamento](https://user-images.githubusercontent.com/103156976/229322255-9a34b4e0-d007-4747-8131-a0a308173fb2.jpg)
 
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
