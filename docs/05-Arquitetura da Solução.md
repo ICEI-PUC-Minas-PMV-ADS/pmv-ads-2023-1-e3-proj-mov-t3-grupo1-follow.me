@@ -2,33 +2,28 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-## Diagrama de Componentes
+Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-Ilustração de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
-
-![diagrama de componentes](https://user-images.githubusercontent.com/103156976/229321584-428d0218-38b4-4c80-a5c5-a754230769dc.jpg)
-
+![Arquitetura da Solução](img/02-mob-arch.png)
 
 ## Diagrama de Classes
 
-Diagrama de classes é uma representação estática utilizada na área da programação para descrever a estrutura de um sistema, apresentando suas classes, atributos, operações e as relações entre os objetos.
+O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-Este tipo de representação é bastante útil no desenvolvimento de sistemas e de softwares de computação, pois define todas as classes que o sistema precisa ter e serve de base para a construção de outros diagramas que definem o tipo de comunicação, sequência e estados dos sistemas.
+As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
-O diagrama de classes é a parte central da Linguagem de Modelagem Unificada (UML – Unfied Modelling Language). Ele representa as principais finalidades da UML, tendo a função de separar os elementos de design da codificação do sistema.
-
-
-
-![MicrosoftTeams-image](https://user-images.githubusercontent.com/103466408/229362723-bbb7153d-f9bd-4f08-9490-dea92719518c.png)
-
+> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
+> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O Diagrama Entidade-Relacionamento (ER) é uma ferramenta de modelagem de dados que descreve as entidades - coisas, objetos - em um sistema e como elas se relacionam entre si. É amplamente utilizado em projetos de banco de dados, pois permite visualizar de forma clara e concisa a estrutura do sistema.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+O diagrama ER é composto por entidades, atributos e relacionamentos. As entidades representam os objetos do mundo real que são relevantes para o sistema, como usuários, produtos ou atividades. Os atributos são as características dessas entidades, como nome, id ou data de criação. Os relacionamentos indicam como as entidades se conectam entre si, por exemplo, um usuário pode fazer rastrear varias atividades e uma atividade pode ser rastreada por apenas um usuário. 
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+Em um modelo ER as entidades são representadas por retângulos, os atributos por elipses e os relacionamentos por losangos. As conexões entre as entidades são indicadas por linhas, que podem ser simples ou duplas, dependendo da natureza do relacionamento.
+
+![Arquitetura da Solução](img/DIAGRAMA_ER.png)
 
 ## Esquema Relacional
 
@@ -46,6 +41,9 @@ Todos esses relacionamentos são definidos por meio de chaves estrangeiras, que 
 ## Modelo Físico
 
 A seguir apresenta-se um link para o arquivo banco.sql, contendo os scripts de criação das tabelas do banco de dados. Este arquivo está localizado na pasta src\bd e pode ser usado para criar a estrutura inicial do banco de dados. 
+
+[BANCO.sql](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo1-follow.me/blob/295d4b06e0aa4e9a564b285d20b792ae8a69849c/prisma/banco.sql)
+
 
 ## Tecnologias Utilizadas
 
