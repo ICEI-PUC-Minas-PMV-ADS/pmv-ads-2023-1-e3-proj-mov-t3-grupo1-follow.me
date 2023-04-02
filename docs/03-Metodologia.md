@@ -94,15 +94,17 @@ O quadro kanban do grupo no Planner está disponível através do link (https://
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
+  
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código: Visual Studio Code 
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+- Ferramentas de comunicação: WhatsApp e Teams. 
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+- Ferramentas de desenho de tela: [Figma](https://www.figma.com/). 
+
+
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. 
+
+As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. 
+
+Por fim, para criar os desenhos de tela utilizamos essa ferramenta por melhor captar as necessidades da nossa solução e pela familiaridade da equipe com a ferramenta. 
