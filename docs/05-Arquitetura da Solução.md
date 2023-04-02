@@ -2,18 +2,21 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+## Diagrama de Componentes
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+Ilustração de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-## Diagrama de Classes
+![diagrama de componentes](https://user-images.githubusercontent.com/103156976/229321584-428d0218-38b4-4c80-a5c5-a754230769dc.jpg)
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+## Diagrama de 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+Diagrama de classes é uma representação estática utilizada na área da programação para descrever a estrutura de um sistema, apresentando suas classes, atributos, operações e as relações entre os objetos.
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+Este tipo de representação é bastante útil no desenvolvimento de sistemas e de softwares de computação, pois define todas as classes que o sistema precisa ter e serve de base para a construção de outros diagramas que definem o tipo de comunicação, sequência e estados dos sistemas.
+
+O diagrama de classes é a parte central da Linguagem de Modelagem Unificada (UML – Unfied Modelling Language). Ele representa as principais finalidades da UML, tendo a função de separar os elementos de design da codificação do sistema.
+
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/103466408/229362723-bbb7153d-f9bd-4f08-9490-dea92719518c.png)
 
 ## Modelo ER
 
