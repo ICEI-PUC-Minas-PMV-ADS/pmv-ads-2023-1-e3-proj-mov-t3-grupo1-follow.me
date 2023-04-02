@@ -88,7 +88,8 @@ O quadro kanban do grupo no Planner está disponível através do link (https://
 
   
 
-![image](blob:https://web.whatsapp.com/3f11d8c4-836d-4826-bb5d-3eb19eeb9e38) 
+![planner](https://user-images.githubusercontent.com/86322587/229366404-47240a8b-d991-4ad2-ab38-28d224ea8075.jpeg)
+
 
 ### Ferramentas
 
