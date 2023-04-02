@@ -52,14 +52,6 @@ Para este versionamento e controle de código fonte, estabelecemos o seguinte fl
 
   
 
-Sendo que o [Github](https://github.com) foi utilizado para hospedagem do repositório. 
-
-  
-
-  
-
-![image](https://user-images.githubusercontent.com/112259936/193463783-a6266a14-cce0-4e43-af2b-7657d93e4ed5.png) 
-
 A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
