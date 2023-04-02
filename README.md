@@ -12,10 +12,14 @@ Nossa proposta é a criação de uma aplicação mobile para controle de tarefas
 
 ## Integrantes
 
-:small_blue_diamond: Barbara Benedetti Cavalcante
+:small_blue_diamond: Barbara Benedetti Cavalcante 
+
 :small_blue_diamond: Fred Vasquez Pinheiro Gomes
+
 :small_blue_diamond: Gabriela França Alves Miranda
+
 :small_blue_diamond: Katryn Ribeiro De Jesus Oliveira
+
 :small_blue_diamond: Paola Marsura Verreschi De Oliveira
 
 ## Orientador
