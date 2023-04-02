@@ -2,7 +2,9 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+## Diagrama de Componentes
+
+Ilustração de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ![diagrama de componentes](https://user-images.githubusercontent.com/103156976/229321584-428d0218-38b4-4c80-a5c5-a754230769dc.jpg)
 
