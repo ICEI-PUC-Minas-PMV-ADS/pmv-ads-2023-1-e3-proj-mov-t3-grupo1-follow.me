@@ -63,18 +63,13 @@ foi utilizado para hospedagem do repositório.
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe fará uso da metodologia ágil Scrum como base para definição de todo o processo de desenvolvimento. 
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
+Portanto, a equipe está organizada da seguinte maneira: 
 - Scrum Master: Paola Marsura Verreschi De Oliveira
 - Product Owner: Katryn Ribeiro De Jesus Oliveira
 - Equipe de Desenvolvimento: Gabriela França Alves Miranda e Fred Vasquez Pinheiro Gomes
 - Equipe de Design: Barbara Benedetti Cavalcante
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
 
 ### Processo
 
