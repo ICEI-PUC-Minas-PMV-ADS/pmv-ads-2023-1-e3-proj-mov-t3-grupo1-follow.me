@@ -8,7 +8,7 @@ Ilustração de como o software é estruturado em termos dos componentes que faz
 
 ![diagrama de componentes](https://user-images.githubusercontent.com/103156976/229321584-428d0218-38b4-4c80-a5c5-a754230769dc.jpg)
 
-## Diagrama de 
+## Diagrama de Classes
 
 Diagrama de classes é uma representação estática utilizada na área da programação para descrever a estrutura de um sistema, apresentando suas classes, atributos, operações e as relações entre os objetos.
 
