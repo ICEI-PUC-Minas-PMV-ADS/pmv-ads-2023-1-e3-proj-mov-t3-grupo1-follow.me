@@ -5,4 +5,5 @@ O teste de usabilidade permite avaliar a qualidade da interface com o usuário d
 ![image](https://user-images.githubusercontent.com/103466408/235005102-85061485-a737-4e40-9068-cd56b302f1ed.png)
 
 1- Ao clicar em Login o sistema irá pedir nome ou e-mail de usuário
+
 2- Ao inserir, clicar em 'LOGAR' para ter acesso em sua conta 
