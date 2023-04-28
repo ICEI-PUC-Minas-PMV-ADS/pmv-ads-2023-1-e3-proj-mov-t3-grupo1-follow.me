@@ -18,8 +18,8 @@ model Atividade {
   id                 String               @id @default(uuid())
   nome               String
   data_criacao       DateTime
-  DiaAtividade       DiaAtividade[]
-  DiaSemanaAtividade DiaSemanaAtividade[]
+  diaAtividade       DiaAtividade[]
+  diaSemanaAtividade DiaSemanaAtividade[]
 
   @@map("atividades")
 }
@@ -27,7 +27,7 @@ model Atividade {
 model Dia {
   id           String         @id @default(uuid())
   data         DateTime
-  DiaAtividade DiaAtividade[]
+  diaAtividade DiaAtividade[]
 
   @@unique([data])
   @@map("dias")

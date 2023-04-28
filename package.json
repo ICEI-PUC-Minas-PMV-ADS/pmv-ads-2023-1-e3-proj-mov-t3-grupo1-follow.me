@@ -18,13 +18,15 @@
     "@types/react": "^18.0.37",
     "@types/react-native": "^0.71.6",
     "@vitejs/plugin-react": "^3.1.0",
+    "dayjs": "^1.11.7",
     "expo": "^48.0.15",
     "fastify": "^4.15.0",
     "lite-server": "^2.6.1",
     "react-dom": "^18.2.0",
     "sqlite3": "^5.1.6",
     "uuid": "^9.0.0",
-    "vite": "^4.2.2"
+    "vite": "^4.2.2",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@mermaid-js/mermaid-cli": "^10.1.0",
