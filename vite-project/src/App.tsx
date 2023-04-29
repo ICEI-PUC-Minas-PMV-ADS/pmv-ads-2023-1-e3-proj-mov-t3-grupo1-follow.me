@@ -1,17 +1,16 @@
+import { Header } from './components/Header'
+import { SummaryTable } from './components/SummaryTable'
 import './styles/global.css'
-import { Atividade } from "./components/Atividade"
+import {Plus} from 'phosphor-react'
 
-function App() {
+export function App() {
   return (
-    <div>
-   <Atividade completed={3}/>
-   <Atividade completed={13}/>
-   <Atividade completed={23}/>
-   <Atividade completed={33}/>
-   <Atividade completed={43}/>
-   <Atividade completed={53}/>
+      <div className="w-screen h-screen flex justify-center items-center">
+      <div className="w-full max-w-5xl px-6 flex flex-col gap-16">
+        <Header />
+        <SummaryTable />
+        
+      </div>
    </div>
   )
 }
-
-export default App
