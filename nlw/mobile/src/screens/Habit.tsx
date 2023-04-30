@@ -55,7 +55,7 @@ export function Habit() {
       setCompletedHabits(response.data.completedHabits ?? []);
     } catch (error) {
       console.error(error);
-      Alert.alert('Oops...', 'Não foi possível carregar os hábitos desde dia!');
+      Alert.alert('Oops...', 'Não foi possível carregar as atividades desse dia!');
     } finally {
       setLoading(false);
     }
@@ -72,7 +72,7 @@ export function Habit() {
       }
     } catch (error) {
       console.log(error)
-      Alert.alert('Oops...', 'Não foi possível atualizar o status do hábito.')
+      Alert.alert('Oops...', 'Não foi possível atualizar o status da atividade.')
     }
   }
 
@@ -127,7 +127,7 @@ export function Habit() {
         {
           isDateInPast && (
             <Text className="text-white mt-10 text-center">
-              Você não pode editar hábitos de uma data passada.
+              Você não pode editar atividades de uma data passada.
             </Text>
           )
         }

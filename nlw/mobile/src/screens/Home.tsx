@@ -36,7 +36,7 @@ export function Home() {
       setSummary(response.data);
     } catch (error) {
 
-      Alert.alert('Oops...', 'Não foi possível carregar o resumo dos hábitos!');
+      Alert.alert('Oops...', 'Não foi possível carregar o resumo das atividades!');
       console.error(error);
 
     } finally {
