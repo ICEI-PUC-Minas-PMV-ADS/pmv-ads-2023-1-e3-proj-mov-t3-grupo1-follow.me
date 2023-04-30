@@ -32,12 +32,12 @@ export function NewHabit() {
   async function handleCreateNewHabit() {
     try {
       if (!title.trim()) {
-        Alert.alert('Novo hábito', 'Informe qual seu comprometimento!');
+        Alert.alert('Nova atividade', 'Informe qual seu comprometimento!');
         return;
       }
 
       if (weekDays.length === 0) {
-        Alert.alert('Novo hábito', 'Selecione pelo menos um dia da semana!');
+        Alert.alert('Nova atividade', 'Selecione pelo menos um dia da semana!');
         return;
       }
 
@@ -49,9 +49,9 @@ export function NewHabit() {
       setTitle('');
       setWeekDays([]);
 
-      Alert.alert('Novo hábito', 'Hábito criado com sucesso!');
+      Alert.alert('Nova atividade', 'Atividade criada com sucesso!');
     } catch (error) {
-      Alert.alert('Oopss...', 'Não foi possível criar o novo hábito no momento!');
+      Alert.alert('Oopss...', 'Não foi possível criar a nova atividade no momento!');
       console.error(error);
     }
   }
