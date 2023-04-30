@@ -13,12 +13,12 @@ export function Header() {
       <Logo />
       <TouchableOpacity
         activeOpacity={0.7}
-        className="flex-row h-11 px-4 border border-violet-500 rounded-lg items-center"
+        className="flex-row h-11 px-4 border border-blue-500 rounded-lg items-center"
         onPress={() => navigate('newHabit')}
       >
         <Feather
           name="plus"
-          color={colors.violet[500]}
+          color={colors.blue[500]}
           size={20}
         />
         <Text className="text-white ml-3 font-semibold text-base">
