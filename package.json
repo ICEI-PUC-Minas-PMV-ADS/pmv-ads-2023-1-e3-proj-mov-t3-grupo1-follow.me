@@ -15,9 +15,13 @@
   "dependencies": {
     "@fastify/cors": "^8.2.1",
     "@prisma/client": "^4.13.0",
+    "@radix-ui/react-checkbox": "^1.0.3",
+    "@radix-ui/react-dialog": "^1.0.3",
+    "@radix-ui/react-popover": "^1.0.5",
     "@types/react": "^18.0.37",
     "@types/react-native": "^0.71.6",
     "@vitejs/plugin-react": "^3.1.0",
+    "clsx": "^1.2.1",
     "dayjs": "^1.11.7",
     "expo": "^48.0.15",
     "fastify": "^4.15.0",
