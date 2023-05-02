@@ -12,11 +12,11 @@ export const DAY_SIZE = (Dimensions.get('screen').width / WEEK_DAYS) - (SCREEN_H
 
 interface HabitDayProps extends TouchableOpacityProps {
   date: Date,
-  completed?: number,
-  amount?: number
+  amountCompleted?: number,
+  amountOfHabits?: number
 }
 
-export function HabitDay({ date, completed = 0, amount = 0, ...rest }: HabitDayProps) {
+export function HabitDay({ date, amountCompleted: completed = 0, amountOfHabits: amount = 0, ...rest }: HabitDayProps) {
   const completedPercentage = generateProgressPercentage(amount, completed);
   const today = dayjs().startOf('day').toDate();
 

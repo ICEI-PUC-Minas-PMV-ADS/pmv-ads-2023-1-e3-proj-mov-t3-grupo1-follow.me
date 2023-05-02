@@ -91,8 +91,8 @@ export function Home() {
                   <HabitDay
                     key={date.toISOString()}
                     date={date}
-                    amount={dayInSummary?.amount}
-                    completed={dayInSummary?.completed}
+                    amountOfHabits={dayInSummary?.amount}
+                    amountCompleted={dayInSummary?.completed}
                     onPress={() => navigate('habit', { date: date.toISOString() })}
                   />
                 )
