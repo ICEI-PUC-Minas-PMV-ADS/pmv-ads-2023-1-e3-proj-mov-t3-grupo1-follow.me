@@ -33,7 +33,7 @@ export function NewHabitForm() {
     setTitle('')
     setWeekDays([])
 
-    alert('Atividaded criada com sucesso!')
+    alert('Atividade criada com sucesso!')
   }
 
   function handleToggleWeekDay(weekDay: number) {
