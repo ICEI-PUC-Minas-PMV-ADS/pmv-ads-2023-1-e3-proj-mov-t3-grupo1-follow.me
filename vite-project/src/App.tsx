@@ -2,6 +2,7 @@ import { Header } from './components/Header'
 import './lib/day.js'
 import { SummaryTable } from './components/SummaryTable'
 import './styles/global.css'
+import './styles/login.css'
 import {Plus} from 'phosphor-react'
 
 export function App() {
