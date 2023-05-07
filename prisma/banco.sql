@@ -17,86 +17,86 @@ DROP TABLE "habits";
 PRAGMA foreign_keys=on;
 
 -- CreateTable
-CREATE TABLE "atividades" (
+CREATE TABLE "habits" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "title" TEXT NOT NULL,
     "created_at" DATETIME NOT NULL
 );
 
 -- CreateTable
-CREATE TABLE "dias" (
+CREATE TABLE "days" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "data" DATETIME NOT NULL
 );
 
 -- CreateTable
-CREATE TABLE "dia_atividades" (
+CREATE TABLE "day_habits" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "id_dia" TEXT NOT NULL,
     "id_atividade" TEXT NOT NULL
 );
 
 -- CreateTable
-CREATE TABLE "dia_semana_atividade" (
+CREATE TABLE "habit_week_days" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "id_atividade" TEXT NOT NULL,
     "dia_semana" INTEGER NOT NULL
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "dias_data_key" ON "dias"("data");
+CREATE UNIQUE INDEX "day_habits_key" ON "days"("date");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "dia_atividades_id_dia_id_atividade_key" ON "dia_atividades"("id_dia", "id_atividade");
+CREATE UNIQUE INDEX "day_habits_id_days_id_habits_key" ON "day_habits"("id_days", "id_habits");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "dia_semana_atividade_id_atividade_dia_semana_key" ON "dia_semana_atividade"("id_atividade", "dia_semana");
+CREATE UNIQUE INDEX "habit_week_days_id_habit_week_days_key" ON "habit_week_days"("id_habits", "day_habits");
 
 -- RedefineTables
 PRAGMA foreign_keys=OFF;
-CREATE TABLE "new_dia_atividades" (
+CREATE TABLE "new_day_habits" (
     "id" TEXT NOT NULL PRIMARY KEY,
-    "id_dia" TEXT NOT NULL,
-    "id_atividade" TEXT NOT NULL,
-    CONSTRAINT "dia_atividades_id_dia_fkey" FOREIGN KEY ("id_dia") REFERENCES "dias" ("id") ON DELETE RESTRICT ON UPDATE CASCADE,
-    CONSTRAINT "dia_atividades_id_atividade_fkey" FOREIGN KEY ("id_atividade") REFERENCES "atividades" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    "id_day" TEXT NOT NULL,
+    "id_habits" TEXT NOT NULL,
+    CONSTRAINT "day_habits_id_day_fkey" FOREIGN KEY ("id_day") REFERENCES "days" ("id") ON DELETE RESTRICT ON UPDATE CASCADE,
+    CONSTRAINT "day_habits_id_habits_fkey" FOREIGN KEY ("id_habits") REFERENCES "habits" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
-INSERT INTO "new_dia_atividades" ("id", "id_atividade", "id_dia") SELECT "id", "id_atividade", "id_dia" FROM "dia_atividades";
-DROP TABLE "dia_atividades";
-ALTER TABLE "new_dia_atividades" RENAME TO "dia_atividades";
-CREATE UNIQUE INDEX "dia_atividades_id_dia_id_atividade_key" ON "dia_atividades"("id_dia", "id_atividade");
-CREATE TABLE "new_dia_semana_atividade" (
+INSERT INTO "new_day_habits" ("id", "id_habits", "id_day") SELECT "id", "id_habits", "id_day" FROM "day_habits";
+DROP TABLE "day_habits";
+ALTER TABLE "new_day_habits" RENAME TO "day_habits";
+CREATE UNIQUE INDEX "day_habits_id_day_id_habits_key" ON "day_habits"("id_day", "id_habits");
+CREATE TABLE "habit_week_days" (
     "id" TEXT NOT NULL PRIMARY KEY,
-    "id_atividade" TEXT NOT NULL,
-    "dia_semana" INTEGER NOT NULL,
-    CONSTRAINT "dia_semana_atividade_id_atividade_fkey" FOREIGN KEY ("id_atividade") REFERENCES "atividades" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    "id_habits" TEXT NOT NULL,
+    "day_week" INTEGER NOT NULL,
+    CONSTRAINT "habit_week_days_id_habits_fkey" FOREIGN KEY ("id_habits") REFERENCES "habits" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
-INSERT INTO "new_dia_semana_atividade" ("dia_semana", "id", "id_atividade") SELECT "dia_semana", "id", "id_atividade" FROM "dia_semana_atividade";
-DROP TABLE "dia_semana_atividade";
-ALTER TABLE "new_dia_semana_atividade" RENAME TO "dia_semana_atividade";
-CREATE UNIQUE INDEX "dia_semana_atividade_id_atividade_dia_semana_key" ON "dia_semana_atividade"("id_atividade", "dia_semana");
+INSERT INTO "new_habit_week_days" ("dia_week", "id", "id_habits") SELECT "day_week", "id", "id_habits" FROM "habit_week_days";
+DROP TABLE "habit_week_days";
+ALTER TABLE "new_habit_week_days" RENAME TO "habit_week_days";
+CREATE UNIQUE INDEX "habit_week_days_id_habits_day_week_key" ON "habit_week_days"("id_habits", "day_week");
 PRAGMA foreign_key_check;
 PRAGMA foreign_keys=ON;
 
 /*
   Warnings:
 
-  - You are about to drop the column `created_at` on the `atividades` table. All the data in the column will be lost.
-  - You are about to drop the column `title` on the `atividades` table. All the data in the column will be lost.
-  - Added the required column `data_criacao` to the `atividades` table without a default value. This is not possible if the table is not empty.
-  - Added the required column `nome` to the `atividades` table without a default value. This is not possible if the table is not empty.
+  - You are about to drop the column `created_at` on the `habits` table. All the data in the column will be lost.
+  - You are about to drop the column `title` on the `habits` table. All the data in the column will be lost.
+  - Added the required column `data_criacao` to the `habits` table without a default value. This is not possible if the table is not empty.
+  - Added the required column `nome` to the `habits` table without a default value. This is not possible if the table is not empty.
 
 */
 -- RedefineTables
 PRAGMA foreign_keys=OFF;
-CREATE TABLE "new_atividades" (
+CREATE TABLE "new_habits" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "nome" TEXT NOT NULL,
     "data_criacao" DATETIME NOT NULL
 );
-INSERT INTO "new_atividades" ("id") SELECT "id" FROM "atividades";
-DROP TABLE "atividades";
-ALTER TABLE "new_atividades" RENAME TO "atividades";
+INSERT INTO "new_habits" ("id") SELECT "id" FROM "habits";
+DROP TABLE "habits";
+ALTER TABLE "new_habits" RENAME TO "habits";
 PRAGMA foreign_key_check;
 PRAGMA foreign_keys=ON;
 
