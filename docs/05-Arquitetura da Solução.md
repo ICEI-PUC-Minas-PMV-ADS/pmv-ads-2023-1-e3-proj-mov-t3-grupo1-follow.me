@@ -55,7 +55,7 @@ O benefício de usar Design Patterns é pelo fato de serem são modelos que já 
 
 Seu uso também contribui para a organização e manutenção de projetos, já que esses padrões se baseiam em baixo acoplamento entre as classes e padronização do código.
 
-Para o desenvolvimento do nosso projeto, seguimos o padrão Behavioral Patterns (Comportamental) mas especificamente o Command.
+Para o desenvolvimento do nosso projeto, seguimos o padrão Behavioral Patterns (Comportamental) mas especificamente o Command e de padrão arquitetural seguimos o padrão Model View Controler (MVC).
 
 ## Tecnologias Utilizadas
 
