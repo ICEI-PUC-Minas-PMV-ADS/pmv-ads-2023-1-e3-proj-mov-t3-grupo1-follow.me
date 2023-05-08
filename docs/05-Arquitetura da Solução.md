@@ -47,6 +47,10 @@ A seguir apresenta-se um link para o arquivo banco.sql, contendo os scripts de c
 
 [BANCO.sql](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo1-follow.me/blob/295d4b06e0aa4e9a564b285d20b792ae8a69849c/prisma/banco.sql)
 
+### Scripts SQL de DML
+
+O Scripts SQL foram desenvolovidos pela ferramenta PRISMA Studio,  o script pode ser visualizado no arquivo [schema.prisma]
+
 ## Padrões de Projeto de Codificação
 
 Design Patterns ou padrões de projetos são soluções generalistas para problemas recorrentes durante o desenvolvimento de um software. Não se trata de um framework ou um código pronto, mas de uma definição de alto nível de como um problema comum pode ser solucionado.
