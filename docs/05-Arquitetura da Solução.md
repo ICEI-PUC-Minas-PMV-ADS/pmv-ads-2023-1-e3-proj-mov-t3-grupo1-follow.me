@@ -49,7 +49,7 @@ A seguir apresenta-se um link para o arquivo banco.sql, contendo os scripts de c
 
 ### Scripts SQL de DML
 
-O Scripts SQL foram desenvolovidos pela ferramenta PRISMA Studio,  o script pode ser visualizado no arquivo [schema.prisma]
+O Scripts SQL foram desenvolovidos pela ferramenta PRISMA Studio,  o script pode ser visualizado neste repositório pelo caminho: pmv-ads-2023-1-e3-proj-mov-t3-grupo1-follow.me/prisma/schema.prisma
 
 ## Padrões de Projeto de Codificação
 
