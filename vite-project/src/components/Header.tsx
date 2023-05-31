@@ -3,6 +3,9 @@ import * as Dialog from '@radix-ui/react-dialog';
 import logoImage from '../assets/logo.svg';
 import { NewHabitForm } from "./NewHabitForm";
 import React, { useEffect, useState } from "react";
+import * as Tabs from '@radix-ui/react-tabs';
+import Login from "./Login"
+
 
 export function Header() {
 
@@ -34,10 +37,34 @@ export function Header() {
             <NewHabitForm />
           </Dialog.Content>
         </Dialog.Portal>
-
       </Dialog.Root>
 
-      
+      <Dialog.Root>
+        <Dialog.Trigger
+          type="button"
+          className="border border-blue-500 font-semibold rounded-lg px-6 py-4 flex items-center gap-3 hover:border-violet-300 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-background"
+        >
+          <Plus size={20} className="text-blue-500" />
+          Login
+        </Dialog.Trigger>
+
+        <Dialog.Portal>
+          <Dialog.Overlay className="w-screen h-screen bg-black/80 fixed inset-0" />
+
+          <Dialog.Content className="absolute p-10 bg-zinc-900 rounded-2xl w-full max-w-md top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <Dialog.Close className="absolute right-6 top-6 text-zinc-400 rounded-lg hover:text-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-zinc-900">
+              <X size={24} aria-label="Fechar"  />
+            </Dialog.Close>
+
+            <Dialog.Title className="text-3xl leading-tight font-extrabold">
+              Login
+            </Dialog.Title>
+
+            <Login />
+          </Dialog.Content>
+        </Dialog.Portal>
+      </Dialog.Root>      
     </div>
+    
   );
 }

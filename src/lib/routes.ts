@@ -151,4 +151,28 @@ export async function appRoutes(app: FastifyInstance) {
     return summary;
   });
 
+  app.post('/login', async(request) => {
+    const getUser = z.object({
+      username: z.string(), 
+      password: z.string()
+    });
+
+
+    const { username, password } = getUser.parse(request.body);  
+
+    const searchUserName = await prisma.login.findFirst({
+      where: {
+          username: username,
+        }
+      });
+
+      if(searchUserName == null){
+        return 'login não cadastrado'
+      }
+      if((username == searchUserName.username) && (password === searchUserName.password) ){0
+        return 'login efetuado com sucesso'
+      }else{
+        return 'usuario ou senha incorretos'
+      }
+    });
 }
