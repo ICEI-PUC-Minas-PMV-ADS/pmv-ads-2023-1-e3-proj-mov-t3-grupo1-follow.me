@@ -32,8 +32,7 @@ export function NewHabit() {
   async function handleCreateNewHabit() {
     try {
       if (!title.trim()) {
-        Alert.alert('Nova atividade', 'Informe qual seu comprometimento!');
-        return;
+        return Alert.alert('Nova atividade', 'Informe qual seu comprometimento!');
       }
 
       if (weekDays.length === 0) {
