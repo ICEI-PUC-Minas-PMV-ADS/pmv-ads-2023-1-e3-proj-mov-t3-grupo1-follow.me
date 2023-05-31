@@ -1,8 +1,15 @@
 import dayjs from 'dayjs';
 import { FastifyInstance } from 'fastify';
 import { z } from 'zod';
-import { prisma } from './prisma';
+//import { prisma } from './prisma';
+import { sign } from 'jsonwebtoken';
+import { hash } from 'bcrypt';
+import { compare } from 'bcrypt';
+import bcrypt from 'bcrypt';
 
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 export async function appRoutes(app: FastifyInstance) {
 
   app.post('/habits', async (request) => {
@@ -151,28 +158,76 @@ export async function appRoutes(app: FastifyInstance) {
     return summary;
   });
 
-  app.post('/login', async(request) => {
+  app.post('/login', async (request) => {
     const getUser = z.object({
-      username: z.string(), 
+      email: z.string(),
       password: z.string()
     });
-
-
-    const { username, password } = getUser.parse(request.body);  
-
-    const searchUserName = await prisma.login.findFirst({
+  
+    const { email, password } = getUser.parse(request.body);
+  
+    const user = await prisma.user.findFirst({
       where: {
-          username: username,
-        }
-      });
-
-      if(searchUserName == null){
-        return 'login não cadastrado'
-      }
-      if((username == searchUserName.username) && (password === searchUserName.password) ){0
-        return 'login efetuado com sucesso'
-      }else{
-        return 'usuario ou senha incorretos'
+        email: email,
       }
     });
+  
+    if (!user) {
+      return 'login não cadastrado';
+    }
+  
+    const passwordMatch = await compare(password, user.password);
+  
+    if (passwordMatch) {
+      // Senha está correta, realizar ação necessária após login bem-sucedido
+      // Por exemplo, gerar token JWT e retornar ao cliente
+      const token = sign({ username: user.email }, 'chave_secreta_do_jwt');
+  
+      return {
+        message: 'login efetuado com sucesso',
+        token: token,
+      };
+    } else {
+      return 'usuário ou senha incorretos';
+    }
+  });
+
+// -- rota para registro de usuario
+app.post('/register', async (request) => {
+  const registerUserBody = z.object({
+    email: z.string().email(),
+    password: z.string().min(6),
+  });
+
+  const { email, password } = registerUserBody.parse(request.body);
+
+  // Verificar se o email já está cadastrado no banco de dados
+  const existingUser = await prisma.user.findUnique({
+    where: {
+      email: email
+    },
+  });
+
+  if (existingUser) {
+    return 'Este email já está cadastrado. Por favor, escolha outro email.';
+  }
+
+  // Criar um hash da senha usando o bcrypt
+  const hashedPassword = await bcrypt.hash(password, 10);
+
+  // Criar o novo usuário no banco de dados
+
+  const newUser = await prisma.user.create({
+    data: {
+      email: email,
+      password: hashedPassword,
+    },
+  });
+
+  return 'Registro concluído com sucesso!';
+});
+
+
+
+  
 }

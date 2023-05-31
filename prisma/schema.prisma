@@ -58,10 +58,10 @@ model DayHabit {
   @@map("day_habits")
 }
 
-model Login {
-  username String
+model User {
+  id       Int    @id @default(autoincrement())
+  email    String @unique
   password String
 
-  @@unique([username])
-  @@map("logins")
+  @@map("users")
 }
