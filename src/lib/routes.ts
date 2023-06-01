@@ -42,6 +42,9 @@ export async function appRoutes(app: FastifyInstance) {
       date: z.coerce.date()
     });
 
+
+    
+    
     const { date } = getDayParams.parse(request.query);
 
     const parsedDate = dayjs(date).startOf('day');
@@ -224,7 +227,18 @@ app.post('/register', async (request) => {
     },
   });
 
-  return 'Registro concluído com sucesso!';
+  const token = sign({ userId: newUser.id, email: newUser.email }, 'chave_secreta_do_jwt');
+
+  return {
+    message: 'Registro concluído com sucesso!',
+    token: token,
+  };
+});
+
+
+
+app.get('/test', async (request, reply) => {
+  return 'Servidor em funcionamento!';
 });
 
 
