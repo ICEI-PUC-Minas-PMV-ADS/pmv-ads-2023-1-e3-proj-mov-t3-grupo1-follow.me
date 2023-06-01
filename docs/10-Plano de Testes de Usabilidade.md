@@ -1,11 +1,24 @@
 # Plano de Testes de Usabilidade
+# Etapa 1 #
 
-O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
+Ao entrar em nosso sistema o usuário deverar fazer login, usando e-mail e senha cadastrados. A tela abaixo será disponibilizada para o login:
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+![image](https://user-images.githubusercontent.com/103466408/235008312-7b67c97c-9d0f-449b-ad02-4a18bd687d35.png)
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+# Etapa 2 #
+
+Após a execução do teste será apresentado um questionário ao usuário a fim de compreender o seu sentimento após conclusão do mesmo. Este questionário contará com 3 perguntas fechadas e 01 pergunta aberta para que o usuário possa expressar sua sugestão de melhoria. As perguntas fechadas serão importantes para mensurar em número se a expectativa do usuário foi atingida.
+
+# Questionário: #
+
+Como você se sentiu após completar a tarefa? Satisfeito: [ ] Estressado: [ ]
+
+Você recomendaria a aplicação a um amigo?
+
+Sim: [ ] Não: [ ]
+
+Você considera a aplicação relevante?
+Sim: [ ] Não: [ ]
+
+Qual a sua sugestão de melhoria?
+

@@ -1,27 +1,27 @@
-# Apresentação
+# Apresentação do andamento do projeto
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+## Vídeo da versão web - versão 01.23
 
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
 
-## Título do Projeto
 
-Nome e marca do projeto
+https://user-images.githubusercontent.com/103156976/236719243-f6d32ebc-db58-43b2-96bc-b2789fd61523.mp4
 
-## Identidade Visual (Marca, Design)
+## Vídeo da tela de login - versão 01.23
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
 
-## Conjunto de Slides (Estrutura)
+https://user-images.githubusercontent.com/103156976/236719287-ca8a9115-41df-4839-a69b-e9619d8a2d31.mp4
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
+## Vídeo da versão mobile - versão 01.23
+
+
+https://user-images.githubusercontent.com/103156976/236719459-383f6e37-3558-4298-b3b6-d052ebfacdbd.mp4
+
+## Vídeo do Prisma Studio - versão 01.23
+
+https://user-images.githubusercontent.com/103156976/236719553-157cf41c-6e91-4d43-8492-33e4ef5df9d1.mp4
+
+## Vídeo do teste de rotas pelo Insomnia - versão 01.23
+
+https://user-images.githubusercontent.com/103156976/236719599-b04e011e-7d70-486b-ac78-6fecd6ea31a0.mp4
+

@@ -86,10 +86,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo no Planner está disponível através do link (https://tasks.office.com/sgapucminasbr.onmicrosoft.com/pt-BR/Home/Planner/#/plantaskboard?groupId=27357971-1be1-4c0c-b925-2e9a75185e81&planId=twPnm3cm106sNXkNk68ouWQAHg-Y) e é apresentado, no estado atual, na figura abaixo.  
 
-  
-
-![planner](https://user-images.githubusercontent.com/86322587/229366404-47240a8b-d991-4ad2-ab38-28d224ea8075.jpeg)
-
+![planner](https://user-images.githubusercontent.com/103230282/236715215-f140d3c4-2ef9-4109-ac8d-b2c1eba07305.png)
 
 ### Ferramentas
 
