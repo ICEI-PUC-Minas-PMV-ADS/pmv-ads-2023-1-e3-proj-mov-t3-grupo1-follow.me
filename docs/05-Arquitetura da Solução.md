@@ -63,7 +63,29 @@ Para o desenvolvimento do nosso projeto, seguimos o padrão Behavioral Patterns 
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+- Ferramentas de desenho de tela: Figma.
+
+- Desenvolvimento de diagrama: LucidAPP.
+
+- Scripts SQL: Prisma Studio
+
+- Cliente HTTP para navegador e node JS: axios
+
+- Runtime JavaScript desenvolvido com o Chrome's V8 JavaScript engine: Node.js®
+
+- Uma biblioteca de componentes de interface do usuário de código aberto para criar sistemas de design acessíveis e de alta qualidade e aplicativos da Web: RADIX
+
+- Uma estrutura React Native para criar aplicativos de plataforma cruzada: rneui
+
+- Vite é uma ferramenta de construção front-end de útima geração com código fonte em ESM nativo: vitejs
+
+- Expo é uma plataforma de código aberto para criar aplicativos nativos universais para Android, iOS e Web com JavaScript e React: expo
+
+- O Fastify é um framework web altamente focado em fornecer a melhor experiência de desenvolvedor com o mínimo de sobrecarga e uma poderosa arquitetura de plug-in: fastify
+
+- TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, oferecendo melhores ferramentas em qualquer escala.
+
+- O Tailwind CSS é uma estrutura CSS de primeiro uso para a criação rápida de sites modernos sem sair do HTML.
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
