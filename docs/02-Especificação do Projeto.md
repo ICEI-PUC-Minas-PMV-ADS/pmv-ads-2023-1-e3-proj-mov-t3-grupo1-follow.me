@@ -55,11 +55,6 @@ O processo 2 abrange o controle das atividades abaixo segue o modelo descrito no
 
 ![processo controle de atividades follow me](https://user-images.githubusercontent.com/103156976/229315531-f69adb55-5265-43ea-bbe9-f32d43aa2d1a.jpeg)
 
-### Processo 3 – Relatório 
-
-O processo 3 abrangem os relatórios da aplicação.  abaixo segue o modelo descrito no padrão BPMN. 
-
-![processo relatorio follow me](https://user-images.githubusercontent.com/103156976/229315547-6bb7a7e5-e2db-4141-9094-f23bcd8683e9.jpeg)
 
 ## Indicadores de Desempenho 
 
@@ -87,10 +82,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-02| A tela inicial deve exibir um botão para acessar o login.  | ALTA |
 |RF-03| O software deve permitir cadastrar (criar) novas atividades    | ALTA |
 |RF-04| O software deve mostrar de forma intuitiva a visão geral da semana do usuário.   | MÉDIA |
-|RF-05|O software deve permitir ao usuário gerar um relatório sobre suas atividades ao fim de cada ciclo (mês)   | BAIXA |
-|RF-06| Cadastro de atividades: o usuário poderá cadastrar uma lista de tarefas ou hábitos que deseja realizar diariamente.  | MÉDIA |
-|RF-07| Marcar tarefas cumpridas ou não cumpridas: o usuário poderá marcar diariamente se realizou ou não cada uma das tarefas cadastradas.   | ALTA |
-|RF-08| Notificações: o usuário poderá receber notificações diárias para lembrá-lo de realizar as tarefas cadastradas.  | MÉDIA |
+|RF-05| Cadastro de atividades: o usuário poderá cadastrar uma lista de tarefas ou hábitos que deseja realizar diariamente.  | MÉDIA |
+|RF-06| Marcar tarefas cumpridas ou não cumpridas: o usuário poderá marcar diariamente se realizou ou não cada uma das tarefas cadastradas.   | ALTA |
+
 
 ### Requisito não Funcionais
 
