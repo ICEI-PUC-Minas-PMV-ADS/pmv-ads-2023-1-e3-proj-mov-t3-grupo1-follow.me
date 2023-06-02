@@ -1,16 +1,21 @@
 import dayjs from 'dayjs';
 import { FastifyInstance } from 'fastify';
 import { z } from 'zod';
-//import { prisma } from './prisma';
-import { sign } from 'jsonwebtoken';
-import { hash } from 'bcrypt';
 import { compare } from 'bcrypt';
 import bcrypt from 'bcrypt';
+import { sign } from 'jsonwebtoken';
+import { authenticateUser } from '../middlewares/authUser';
+
+
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 export async function appRoutes(app: FastifyInstance) {
+
 
   app.post('/habits', async (request) => {
     const createHabitBody = z.object({
@@ -135,7 +140,8 @@ export async function appRoutes(app: FastifyInstance) {
 
   });
 
-  app.get('/summary', async () => {
+  app.get('/summary', { preHandler: authenticateUser }, async () => {
+    console.log("Entrei")
     const summary = await prisma.$queryRaw`
       SELECT 
         D.id, 
@@ -166,9 +172,9 @@ export async function appRoutes(app: FastifyInstance) {
       email: z.string(),
       password: z.string()
     });
-  
+    console.log("Entrei")
     const { email, password } = getUser.parse(request.body);
-  
+    console.log(process.env.JWT_SECRET)
     const user = await prisma.user.findFirst({
       where: {
         email: email,
@@ -182,9 +188,9 @@ export async function appRoutes(app: FastifyInstance) {
     const passwordMatch = await compare(password, user.password);
   
     if (passwordMatch) {
-      // Senha está correta, realizar ação necessária após login bem-sucedido
-      // Por exemplo, gerar token JWT e retornar ao cliente
-      const token = sign({ username: user.email }, 'chave_secreta_do_jwt');
+      // Senha está correta, gerar um token de acesso para o user
+
+      const token = sign({ user: user.email }, process.env.JWT_SECRET!);
   
       return {
         message: 'login efetuado com sucesso',
@@ -227,7 +233,7 @@ app.post('/register', async (request) => {
     },
   });
 
-  const token = sign({ userId: newUser.id, email: newUser.email }, 'chave_secreta_do_jwt');
+  const token = sign({ userId: newUser.id, email: newUser.email }, process.env.JWT_SECRET!);
 
   return {
     message: 'Registro concluído com sucesso!',
@@ -235,13 +241,15 @@ app.post('/register', async (request) => {
   };
 });
 
-
-
 app.get('/test', async (request, reply) => {
   return 'Servidor em funcionamento!';
 });
 
 
 
-  
+app.get('/protected', { preHandler: authenticateUser }, async (request, reply) => {
+  return 'Servidor em funcionamento!';
+});
+
 }
+
