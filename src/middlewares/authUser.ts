@@ -22,15 +22,12 @@ export function authenticateUser(request: FastifyRequest, reply: FastifyReply, d
   }
 
   try {
-    console.log(token)
-    console.log(JWT_SECRET)
     const decoded = jwt.verify(token, JWT_SECRET);
-    
-    console.log("entrei 2")
-    // -- Adicione os dados decodificados do token à solicitação para uso posterior
+
+    // -- Adicionar os dados decodificados do token à solicitação para uso posterior
     request.user = decoded;
 
-    // -- Continue para a próxima rota
+    // -- Continar para a próxima rota
     done();
   } catch (error) {
     reply.code(401).send({ error: 'Token de autenticação inválido.' });

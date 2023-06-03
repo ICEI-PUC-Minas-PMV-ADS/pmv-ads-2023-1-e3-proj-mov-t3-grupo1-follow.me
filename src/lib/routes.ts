@@ -141,7 +141,6 @@ export async function appRoutes(app: FastifyInstance) {
   });
 
   app.get('/summary', { preHandler: authenticateUser }, async () => {
-    console.log("Entrei")
     const summary = await prisma.$queryRaw`
       SELECT 
         D.id, 
@@ -172,9 +171,7 @@ export async function appRoutes(app: FastifyInstance) {
       email: z.string(),
       password: z.string()
     });
-    console.log("Entrei")
     const { email, password } = getUser.parse(request.body);
-    console.log(process.env.JWT_SECRET)
     const user = await prisma.user.findFirst({
       where: {
         email: email,
