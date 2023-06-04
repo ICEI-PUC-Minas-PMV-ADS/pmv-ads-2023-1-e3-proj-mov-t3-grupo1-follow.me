@@ -27,8 +27,8 @@ export function Login() {
       const response = await api.post('login', { email, password } )
       //Alert.alert(response.data);
       const { token } = response.data
-      
-      if(token) {
+      console.log(token);
+      if(!(token === undefined)) {
         await AsyncStorage.setItem('token', token);
         navigate('home');
       } else {
@@ -38,7 +38,7 @@ export function Login() {
       // navigate('home');
       
     } catch (error) {
-      Alert.alert('Oops...', 'Não foi possível fazer o login. Verifique suas credenciais e tente novamente.');
+      Alert.alert('Oops...', 'Ocorreu um erro ao tentar efetuar login. Tente novamente mais tarde.' + error);
       console.error(error);
     } finally {
       setLoading(false);

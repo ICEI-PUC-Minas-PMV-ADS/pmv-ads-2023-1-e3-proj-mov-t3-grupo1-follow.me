@@ -33,6 +33,7 @@ export function Home() {
       setLoading(true);
 
       const response = await api.get('summary');
+      console.log(response)
       setSummary(response.data);
     } catch (error) {
 

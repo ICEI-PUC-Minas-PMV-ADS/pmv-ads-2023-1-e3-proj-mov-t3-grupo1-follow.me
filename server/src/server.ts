@@ -1,7 +1,7 @@
 import Fastify from 'fastify';
 import { FastifyInstance } from 'fastify';
 import cors from '@fastify/cors';
-import { appRoutes } from './lib/routes';
+import { appRoutes } from './routes/routes';
 import { authenticateUser } from './middlewares/authUser';
 
 
