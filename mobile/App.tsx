@@ -16,6 +16,7 @@ import {
 import { Loading } from './src/components/Loading';
 import { Routes } from './src/routes';
 import { Button } from 'react-native-elements';
+import { useEffect } from 'react';
 
 Notifications.setNotificationHandler({
   handleNotification:async () => ({
@@ -57,7 +58,6 @@ export default function App() {
   return (
     <>
       <Routes />
-      <Button title='Notificações'onPress={handleCallNotification}/>
       <StatusBar
         barStyle="light-content"
         backgroundColor="transparent"
