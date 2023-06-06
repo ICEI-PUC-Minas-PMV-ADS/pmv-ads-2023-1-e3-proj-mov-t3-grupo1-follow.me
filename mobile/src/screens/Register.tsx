@@ -2,10 +2,10 @@ import { useNavigation } from '@react-navigation/native';
 import { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Alert } from 'react-native';
 import { CheckBox } from 'react-native-elements';
-
+import { api } from '../lib/axios';
 import { Header } from '../components/Header';
 import { Loading } from '../components/Loading';
-import { api } from '../lib/axios';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export function Register() {
   const [loading, setLoading] = useState(false);
@@ -36,12 +36,14 @@ export function Register() {
         return;
       }
 
-      // Fazer a requisição de registro à API aqui
-      // const response = await api.post('/register', { email, password, birthdate });
-      // ...
-
-      // Se o registro for bem-sucedido, navegue para a tela Home
-      //navigate('home');
+      // -- Fazer a requisição de registro à API aqui
+      const response = await api.post('/register', { email, password });
+      const { token } = response.data
+      if(!(token === undefined)) {
+        // -- se tiver retornado um token, salva no async e navega para a home
+        await AsyncStorage.setItem('token', token);
+        navigate('home');
+      } 
     } catch (error) {
       Alert.alert('Oops...', 'Não foi possível fazer o registro. Por favor, tente novamente mais tarde.');
       console.error(error);
