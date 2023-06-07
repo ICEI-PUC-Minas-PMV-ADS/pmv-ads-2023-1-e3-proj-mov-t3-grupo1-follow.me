@@ -5,7 +5,6 @@ import { View, Text, TextInput, TouchableOpacity, Alert } from 'react-native';
 import { Header } from '../components/Header';
 import { Loading } from '../components/Loading';
 import { api } from '../lib/axios';
-import axios from 'axios'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 type Nav = {
@@ -25,7 +24,6 @@ export function Login() {
     try {
       setLoading(true);
       const response = await api.post('login', { email, password } )
-      //Alert.alert(response.data);
       const { token } = response.data
       console.log(token);
       if(!(token === undefined)) {
@@ -34,9 +32,6 @@ export function Login() {
       } else {
         setStatusMessage("Email ou senha incorretos.")
       }
-      // await AsyncStorage.setItem('token', token);
-      // navigate('home');
-      
     } catch (error) {
       Alert.alert('Oops...', 'Ocorreu um erro ao tentar efetuar login. Tente novamente mais tarde.' + error);
       console.error(error);
@@ -44,7 +39,6 @@ export function Login() {
       setLoading(false);
     }
   }
-
   async function handleRegister() {
     navigate('register');
   }
