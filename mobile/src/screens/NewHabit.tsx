@@ -50,7 +50,7 @@ export function NewHabit() {
 
       Alert.alert('Nova atividade', 'Atividade criada com sucesso!');
     } catch (error) {
-      Alert.alert('Oopss...', 'Não foi possível criar a nova atividade no momento!');
+      Alert.alert('Oopss...', 'Não foi possível criar a nova atividade no momento!' + error);
       console.error(error);
     }
   }
