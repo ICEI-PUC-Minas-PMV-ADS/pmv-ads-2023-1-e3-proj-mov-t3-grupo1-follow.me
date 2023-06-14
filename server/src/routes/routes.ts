@@ -17,7 +17,9 @@ const prisma = new PrismaClient();
 export async function appRoutes(app: FastifyInstance) {
 
 
-  app.post('/habits', async (request) => {
+  app.post('/habits', { preHandler: authenticateUser }, async (request) => {
+    const userId = request.user.id; // Retrieve the user ID from the authenticated request
+
     const createHabitBody = z.object({
       title: z.string(),
       weekDays: z.array(z.number().min(0).max(6))
@@ -31,6 +33,7 @@ export async function appRoutes(app: FastifyInstance) {
       data: {
         title,
         created_at: today,
+        ID_user: userId,
         weekDays: {
           create: weekDays.map(weekDay => {
             return {
@@ -42,7 +45,7 @@ export async function appRoutes(app: FastifyInstance) {
     })
   });
 
-  app.get('/day', async (request) => {
+  app.get('/day', { preHandler: authenticateUser }, async (request) => {
     const getDayParams = z.object({
       date: z.coerce.date()
     });
@@ -92,13 +95,25 @@ export async function appRoutes(app: FastifyInstance) {
 
   });
 
-  app.patch('/habits/:id/toggle', async (request) => {
+  app.patch('/habits/:id/toggle', { preHandler: authenticateUser }, async (request) => {
+    const userId = request.user.id; // Retrieve the user ID from the authenticated request
+
     const toggleHabitParams = z.object({
       id: z.string().uuid(),
     });
 
     const { id } = toggleHabitParams.parse(request.params);
     const today = dayjs().startOf('day').toDate();
+
+    const habit = await prisma.habit.findUnique({
+      where: {
+          id: id,
+      }
+    });
+
+    if(habit && habit.ID_user !== userId){
+      return;
+    }
 
     let day = await prisma.day.findUnique({
       where: {
@@ -140,7 +155,8 @@ export async function appRoutes(app: FastifyInstance) {
 
   });
 
-  app.get('/summary', { preHandler: authenticateUser }, async () => {
+  app.get('/summary', { preHandler: authenticateUser }, async (request) => {
+    const userId = request.user.id; // Retrieve the user ID from the authenticated request
     const summary = await prisma.$queryRaw`
       SELECT 
         D.id, 
@@ -159,7 +175,7 @@ export async function appRoutes(app: FastifyInstance) {
             ON H.id = HWD.habit_id
           WHERE 
             HWD.week_day = cast(strftime('%w', D.date/1000.0, 'unixepoch') as int)
-            AND H.created_at <= D.date
+            AND H.created_at <= D.date AND H.ID_User = ${userId}
         ) as amount
       FROM days D
     `
@@ -187,7 +203,7 @@ export async function appRoutes(app: FastifyInstance) {
     if (passwordMatch) {
       // Senha está correta, gerar um token de acesso para o user
 
-      const token = sign({ user: user.email }, process.env.JWT_SECRET!);
+      const token = sign({ user_id: user.id }, process.env.JWT_SECRET!);
   
       return {
         message: 'login efetuado com sucesso',
@@ -241,7 +257,6 @@ app.post('/register', async (request) => {
 app.get('/test', async (request, reply) => {
   return 'Servidor em funcionamento!';
 });
-
 
 
 app.get('/protected', { preHandler: authenticateUser }, async (request, reply) => {
