@@ -157,7 +157,8 @@ Para facilitar este processo de gestão de tarefas e pessoas, a equipe conta tam
 
 No Microsoft Planner, as tarefas podem também ser rastreadas por status, bucket, prioridade e responsável, bem como seu estado de execução conforme exposto na tela abaixo:
 
-![PLANNER 01](https://user-images.githubusercontent.com/103156976/222039735-fbb40fab-a82b-4984-8000-a899f8f5f759.jpg)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo1-follow.me/assets/103156976/56224c78-a2c9-4a01-beb7-3f3b8770f2de)
+
 ![PLANNER 02](https://user-images.githubusercontent.com/103156976/222039740-7ab6bbb5-892f-447e-8a52-9f0802f68835.jpg)
 
 
