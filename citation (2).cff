@@ -1,0 +1,24 @@
+message: Please cite this software using these metadata.
+title: Follow-me APP para rastreio de atividades
+authors:
+  - family-names: Benedetti Cavalcante
+    given-names: Barbara 
+  - family-names: Vasquez Pinheiro Gomes
+    given-names: Fred 
+  - family-names: França Alves Miranda
+    given-names: Gabriela 
+  - family-names:  Ribeiro De Jesus Oliveira
+    given-names: Katryn 
+  - family-names: Marsura Verreschi De Oliveira
+    given-names: Paola 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Curcino De Lima
+    given-names: Mateus 
+keywords:
+  - Tarefas
+  - Gestão
+  - Tarefas
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo1-follow.me
+version: 1.0.0
+date-released: 2023-06-23
